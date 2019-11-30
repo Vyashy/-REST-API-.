@@ -155,16 +155,7 @@
    }
  }
  function submitJsonForm(data) {
-   // console.log(JSON.stringify(data, null, 2));
-   // for(item of data) {
-   //   var itm = {}
-   //       itm.name = item.name;
-   //       itm.type = item.type;
-   //       itm.data = (item.base64.length > 40) ?
-   //                  item.base64.substring(0, 20) + "..." + item.base64.substring(item.base64.length - 20) :
-   //                  item.base64;
-   //       console.log(JSON.stringify(itm, null, 2));
-   // }
+
    $.ajax({
       url: baseURL,
       type: 'POST',
